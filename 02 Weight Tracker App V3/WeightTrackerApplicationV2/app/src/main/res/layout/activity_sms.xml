@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/sms_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SmsActivity"
+    android:padding="24dp">
+
+
+    <TextView
+        android:id="@+id/smsTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SMS Notifications"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+    <TextView
+        android:id="@+id/smsExplanation"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="We’ll help you keep your goals in check (and your snacks in checkmate). Allow SMS updates so we can nudge you when the scale tips, the milestones hit, or when it’s time to celebrate progress!"
+        android:textSize="16sp"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@id/smsTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="24dp" />
+
+
+    <Button
+        android:id="@+id/allowSmsButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Allow SMS Notifications"
+        app:layout_constraintTop_toBottomOf="@id/smsExplanation"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="32dp" />
+
+
+    <Button
+        android:id="@+id/denySmsButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Deny"
+        app:layout_constraintTop_toBottomOf="@id/allowSmsButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp" />
+
+
+    <TextView
+        android:id="@+id/smsStatus"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Permission Status: Not Checked"
+        android:textSize="14sp"
+        android:textColor="@android:color/darker_gray"
+        app:layout_constraintTop_toBottomOf="@id/denySmsButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="24dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
