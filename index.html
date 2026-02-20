@@ -1,13 +1,103 @@
----
-layout: default
-title: CS-499 ePortfolio
----
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CS-499 ePortfolio | Jason Hargrove</title>
+  <style>
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; margin: 0; line-height: 1.6; }
+    header { padding: 48px 16px; color: white;
+      background: linear-gradient(90deg, #1f6feb, #2ea043);
+      text-align: center;
+    }
+    header h1 { margin: 0 0 8px; font-size: 40px; }
+    header p { margin: 0; opacity: .95; }
+    nav { margin-top: 16px; }
+    nav a { display: inline-block; margin: 6px; padding: 10px 14px; border-radius: 10px;
+      text-decoration: none; color: white; border: 1px solid rgba(255,255,255,.35);
+    }
+    nav a:hover { background: rgba(255,255,255,.12); }
+    main { max-width: 980px; margin: 0 auto; padding: 28px 16px 64px; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 14px; }
+    .card { border: 1px solid #e5e7eb; border-radius: 14px; padding: 16px; background: #fff; }
+    .card h2 { margin: 0 0 10px; font-size: 18px; }
+    .card p { margin: 0 0 10px; color: #374151; }
+    .card a { text-decoration: none; font-weight: 600; }
+    .muted { color: #6b7280; }
+    footer { border-top: 1px solid #e5e7eb; padding: 16px; text-align: center; color: #6b7280; }
+    .pill { display: inline-block; font-size: 12px; padding: 4px 10px; border-radius: 999px; background: #f3f4f6; margin: 4px 6px 0 0; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>CS-499 ePortfolio</h1>
+    <p>Computer Science Capstone Portfolio — Jason Hargrove</p>
+    <nav>
+      <a href="./self-assessment.html">Self-Assessment</a>
+      <a href="./code-review.html">Code Review</a>
+      <a href="./artifacts.html">Artifacts</a>
+      <a href="./resume.html">Resume</a>
+      <a href="https://github.com/Jhargrove129/CS-499">View Repository</a>
+    </nav>
+  </header>
 
-# CS-499 ePortfolio
-Welcome to my Computer Science Capstone Portfolio.
+  <main>
+    <section class="card">
+      <h2>Overview</h2>
+      <p>
+        This portfolio showcases my growth across the Computer Science program through a capstone project and a set of enhanced artifacts.
+        The focus is on professional communication, software design, algorithmic thinking, database fundamentals, and a security mindset.
+      </p>
+      <div class="muted">
+        <span class="pill">Software Design & Engineering</span>
+        <span class="pill">Algorithms & Data Structures</span>
+        <span class="pill">Databases</span>
+        <span class="pill">Security & Validation</span>
+        <span class="pill">Documentation</span>
+      </div>
+    </section>
 
-## Quick Links
-- [Professional Self-Assessment](./self-assessment.html)
-- [Code Review Video](./code-review.html)
-- [Artifacts](./artifacts.html)
-- [Resume](./resume.html)
+    <section style="margin-top: 14px;" class="grid">
+      <div class="card">
+        <h2>Professional Self-Assessment</h2>
+        <p>A structured reflection connecting program learning to professional goals, strengths, and course outcomes.</p>
+        <a href="./self-assessment.html">Open Self-Assessment →</a>
+      </div>
+
+      <div class="card">
+        <h2>Code Review</h2>
+        <p>An overview of my selected artifact(s), analysis of limitations, and planned/enacted enhancements.</p>
+        <a href="./code-review.html">Open Code Review →</a>
+      </div>
+
+      <div class="card">
+        <h2>Artifacts</h2>
+        <p>Enhanced artifacts with downloads and concise explanations aligned to CS-499 outcomes.</p>
+        <a href="./artifacts.html">Open Artifacts →</a>
+      </div>
+
+      <div class="card">
+        <h2>Resume</h2>
+        <p>Downloadable resume and contact links (add/update anytime).</p>
+        <a href="./resume.html">Open Resume →</a>
+      </div>
+    </section>
+
+    <section style="margin-top: 14px;" class="card">
+      <h2>Quick Downloads</h2>
+      <p class="muted">These are files already in this repository.</p>
+      <ul>
+        <li><a href="./03%20Weight%20Tracker%20App%20Final.zip">Weight Tracker App (Final ZIP)</a></li>
+        <li><a href="./03%20CS%20499%20Narratives.zip">CS-499 Narratives (ZIP)</a></li>
+        <li><a href="./Code%20Review%20Google%20Docs.docx">Code Review Document (DOCX)</a></li>
+        <li><a href="./00_Professional_Self_Assessment_Hargrove.docx">Self-Assessment (DOCX)</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    © <span id="y"></span> Jason Hargrove — CS-499 ePortfolio
+  </footer>
+  <script>document.getElementById("y").textContent = new Date().getFullYear();</script>
+</body>
+</html>
