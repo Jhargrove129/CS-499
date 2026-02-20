@@ -1,3 +1,10 @@
 theme: jekyll-theme-cayman
 title: CS-499 ePortfolio
 description: Computer Science Capstone Portfolio
+
+header_pages:
+  - index.md
+  - self-assessment.md
+  - code-review.md
+  - artifacts.md
+  - resume.md
