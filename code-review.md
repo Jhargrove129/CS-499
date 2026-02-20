@@ -17,5 +17,5 @@ This section summarizes my CS-499 code review and the enhancements applied to my
 - How the improvements support CS-499 outcomes (quality, communication, security)
 
 Video Link Here
-- Video: : https://docs.google.com/videos/d/1pxrSFBa-aMQcLYEaPvcQGrRZrfzMU3Wz6JDavFat3xI/edit?usp=sharing  
+- Video: https://docs.google.com/videos/d/1pxrSFBa-aMQcLYEaPvcQGrRZrfzMU3Wz6JDavFat3xI/edit?usp=sharing  
 - Repository: [CS-499 GitHub Repo](https://github.com/Jhargrove129/CS-499)
