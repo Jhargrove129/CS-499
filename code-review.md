@@ -1,50 +1,22 @@
 ---
 layout: default
-title: Code Review Video
+title: Code Review
 ---
 
-# Code Review Video
+# Code Review
 
-- Video link: (https://docs.google.com/videos/d/1pxrSFBa-aMQcLYEaPvcQGrRZrfzMU3Wz6JDavFat3xI/edit?usp=sharing)
-- Repository: https://github.com/Jhargrove129/CS-499.git
-- Summary:
-  Purpose: Tracks a user’s current weight through a simple input-and-update flow
+This section summarizes my CS-499 code review and the enhancements applied to my selected artifact(s). The review focuses on current functionality, limitations, and improvements aligned to the CS-499 course outcomes, including professional communication, design trade-offs, and a security mindset.
 
-  Main screen setup: MainActivity loads the main layout and initializes UI elements via findViewById()
+## Code Review Document
+- [Code Review (DOCX)](./Code%20Review%20Google%20Docs.docx)
 
-  Key UI components used:
+## What the Code Review Covers
+- Current functionality and purpose of the artifact(s)
+- Issues/limitations found during review (design, structure, validation, maintainability)
+- Planned and implemented enhancements
+- How the improvements support CS-499 outcomes (quality, communication, security)
 
-TextView to display the current weight
-
-EditText for weight input
-
-Button to add a new weight
-
-Buttons for View History and Set Goal (placeholders)
-
-
-Add-weight logic:
-
-Reads and trims the input text
-
-Rejects blank input
-
-Converts input using toDoubleOrNull() to avoid crashes
-
-Rejects non-numeric input
-
-Applies a basic realistic range check (e.g., > 0 and not excessively high)
-
-
-On success:
-
-Updates the TextView with the new weight
-
-Clears the input field
-
-Shows a “Weight added successfully!”
-
-
-Future-ready structure:
-
-“View History” and “Set Goal” buttons currently show “coming soon”, but provide hooks for later feature development
+## Optional: Add Your Video Link Here
+If your code review video is hosted online, paste the link below:
+- Video: *(add link)*  
+- Repository: [CS-499 GitHub Repo](https://github.com/Jhargrove129/CS-499)
