@@ -43,5 +43,3 @@ These materials document what changed, why it changed, and how the enhancements 
 - **Algorithmic trade-offs:** Decisions balancing readability, maintainability, and efficiency  
 - **Innovative tools/techniques:** Practical development tools and improvement workflow  
 - **Security mindset:** Input validation, safer data handling, and graceful error handling  
-
-> If you have separate artifacts for Algorithms & Data Structures and Databases, add them here as additional sections with links.
